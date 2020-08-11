@@ -23,7 +23,7 @@ const AppBar: React.FC<{initialActiveItem: string}> = ({initialActiveItem}) => {
 
     return (
   
-            <Menu fixed="top" inverted>
+            <Menu fixed="top" inverted stackable>
                 <Menu.Item header>
                     Notes
                 </Menu.Item>
