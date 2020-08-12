@@ -9,7 +9,7 @@ const AppBar: React.FC<{initialActiveItem: string}> = ({initialActiveItem}) => {
          
                 <Menu.Menu position="right">
                      <Menu.Item name="signUp"  >
-                    <Button >Log In</Button>
+                   <Link to="/login"> <Button >Log In</Button></Link>
                 </Menu.Item>
                 <Menu.Item name="signUp" >
                     <Link to="/sign-up"><Button color="blue">Sign Up</Button></Link>
@@ -23,7 +23,7 @@ const AppBar: React.FC<{initialActiveItem: string}> = ({initialActiveItem}) => {
 
     return (
   
-            <Menu fixed="top" inverted stackable>
+            <Menu fixed="top" inverted >
                 <Menu.Item header>
                     Notes
                 </Menu.Item>
